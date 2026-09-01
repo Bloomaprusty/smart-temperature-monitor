@@ -183,3 +183,5 @@ static void __exit tempsensor_exit(void)
 
 module_init(tempsensor_init);
 module_exit(tempsensor_exit);
+
+
