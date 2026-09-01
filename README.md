@@ -103,7 +103,7 @@ dmesg | tail -5     # should show "tempsensor: module unloaded"
    NORMAL/WARNING/CRITICAL states, before they start extending the code
    themselves.
 
-## Ideas for teams to extend (self-study / remaining capstone work)
+## Ideas for teams to extend: (self-study / remaining capstone work)
 
 - Add a `LOW_BATTERY` state fed by a second simulated ioctl.
 - Replace the simulated driver with a real I2C/GPIO sensor on a Raspberry Pi.
